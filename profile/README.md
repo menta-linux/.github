@@ -1,42 +1,41 @@
 Menta Linux is a planned GNU/Linux distribution being built on Debian Stable (or just a repository), with MATE at its heart. Its goal is a consistent desktop with familiar workflows, native utilities, and system tools designed to work together.
 
-## Development Status Matrix
+Please go see my **[MATE Wayland Transition Roadmap](https://github.com/KeremSoke/polo/discussions/6)**. After that I'll be finishing:
 
-| Emoji | Status | Emoji | Status | 
-|--:|:--|--:|:--|
-| ✅ | Done | 📋 | Planned |
-| ❌ | Not planned/possible | ❓ | Not verified |
-| 🚧 | In progress | 🧪 | Experimenting |
-| ➖ | Not started yet | 🚮 | Abandoned |
-| 📬 | PR submitted | 👍 | Awaiting merge |
-| 🔀 | Merged | | |
+- [ ] **[MATE Clocks](https://github.com/KeremSoke/mate-clocks)** : World clocks, alarms, stopwatch and timer
+- [ ] **MATE Weather** : A basic weather app
+- [x] **[MATE Clipboard](https://github.com/KeremSoke/mate-clipboard)** : Clipboard history with search, encryption and panel integration
+- [ ] **[MATE ScreenRuler](https://github.com/KeremSoke/mate-screenruler)** : Configurable on-screen pixel ruler
+    - A complete vala rewrite is needed.
+- [x] **[MATE Fingerprint Login](https://github.com/KeremSoke/mate-fprint)** : Fingerprint enrollment and login configuration
+- [x] **[MATE Graphics Tablet](https://github.com/KeremSoke/mate-wacom)** : Tablet and pen settings, including display mapping
+    - A wayland backend needed
+- [x] **[MATE Night Light](https://github.com/KeremSoke/mate-redshift)** : Screen temperature settings that uses [rojo](https://github.com/KeremSoke/rojo), scheduling and previews
+- [ ] **MATE Color Management** : A complete color management settings dialog that uses [rojo](https://github.com/KeremSoke/rojo)
+- [X] **[Rojo](https://github.com/KeremSoke/rojo)** : Night light, gamma, and color manager daemon
+- [ ] **Menta Welcome** : A welcome screen to introduce everything implemented
+- [ ] **[Menta Software Manager](https://github.com/KeremSoke/menta-install)** : Browse and install Debian packages, Flatpaks and local packages
+    - A complete rewrite in Vala needed
+- [ ] **[Menta Software Sources](https://github.com/KeremSoke/menta-sources)** : Manage Debian repositories, mirrors and signing keys
+    - A complete rewrite in Vala needed
+- [ ] **[Menta Update Manager](https://github.com/KeremSoke/menta-update)** : Graphical software update management
+    - A complete rewrite in Vala needed
+- [ ] **Menta Language Selector** : A language selector for debian
+- [x] **[MATE Appmenu & HUD](https://gitlab.com/KeremSoke/mate-appmenu)** : Global application menu and searchable menu actions
+- [x] **[MATE Media](https://github.com/mate-desktop/mate-media)** : Volume controls with integrated media playback controls
+- [ ] **[MATE Screensaver](https://github.com/KeremSoke/mate-screensaver)** : Screen locking; media integration done
+    - Wayland under development
+- [x] **[Picom](https://github.com/KeremSoke/picom/tree/wobbly)** : Desktop compositing with wobbly windows and magic lamp effects
+- [x] **[Polo](https://github.com/KeremSoke/polo)** : A wayland compositor and display server for MATE
+- [x] **[Polo Tweaks](https://github.com/KeremSoke/polo-tweaks)** : A nice settings dialog for Polo
+- [ ] **[MATE HUD](https://github.com/KeremSoke/mate-appmenu)** : New standalone application-menu search
+    - Need to separate the HUD from main project and add wayland support
 
-| Name | Description | Progress | Packaging | Wayland |
-|:--|:--|:--:|:--:|:--:|
-| [MATE Clocks](https://github.com/KeremSoke/mate-clocks) | World clocks, alarms, stopwatch and timer | 🚧 | ➖ | ❓ |
-| MATE Weather | A basic weather app | 📋 | 📋 | 📋 |
-| [MATE Clipboard](https://github.com/KeremSoke/mate-clipboard) | Clipboard history with search, encryption and panel integration | ✅ | [🚧](https://github.com/menta-linux/pkg-mate-clipman) | ✅¹ |
-| [MATE ScreenRuler](https://github.com/KeremSoke/mate-screenruler) | Configurable on-screen pixel ruler | ✅ | ➖ | 🧪² |
-| [MATE Fingerprint Login](https://github.com/KeremSoke/mate-fprint) | Fingerprint enrollment and login configuration | ✅ | ➖ | 🧪 |
-| [MATE Graphics Tablet](https://github.com/KeremSoke/mate-wacom) | Tablet and pen settings, including display mapping | ✅ | [✅](https://github.com/menta-linux/pkg-mate-wacom) | ❌ |
-| [MATE Night Light](https://github.com/KeremSoke/mate-redshift) | Screen temperature settings that uses [rojo](https://github.com/KeremSoke/rojo), scheduling and previews. | ✅ | [🚧](https://github.com/menta-linux/pkg-mate-redshift) | ✅³ |
-| MATE Color Management | A complete color management settings dialog that uses [rojo](https://github.com/KeremSoke/rojo) | 📋 | 📋 | 📋 |
-| [Rojo](https://github.com/KeremSoke/rojo) | Night light, gamma, and color manager daemon | 🚧 | ➖ | 🧪³ |
-| Menta Welcome | A welcome screen to introduce everything implemented | 📋 | 📋 | 📋 |
-| [Menta Software Manager](https://github.com/KeremSoke/menta-install) | Browse and install Debian packages, Flatpaks and local packages | ✅ | 🚧 | ❓ |
-| [Menta Software Sources](https://github.com/KeremSoke/menta-sources) | Manage Debian repositories, mirrors and signing keys | ✅ | 🚧 | ❓ |
-| [Menta Update Manager](https://github.com/KeremSoke/menta-update) | Graphical software update management | ✅ | 🚧 | ❓ |
-| [MATE Appmenu & HUD](https://gitlab.com/KeremSoke/mate-appmenu) | Global application menu and searchable menu actions | ✅ | [✅](https://github.com/menta-linux/pkg-mate-appmenu) | 🚧 |
-| [MATE Media](https://github.com/KeremSoke/mate-media/tree/mpris-support) | Volume controls with integrated media playback controls | ✅📬👍 | ➖ | ✅ |
-| [MATE Screensaver](https://github.com/KeremSoke/mate-screensaver) | Screen locking; media integration done | ✅📬 | ➖ | 🧪 |
-| [Picom](https://github.com/KeremSoke/picom/tree/wobbly) | Desktop compositing with wobbly windows and magic lamp effects | ✅📬 | [✅](https://github.com/menta-linux/pkg-picom) | ❌ |
-| [Desktop Effects Settings](https://github.com/KeremSoke/picom/tree/wobbly) | A nice settings dialog for my picom-wobbly| ✅ | ✅ | ❌ |
-| [MATE HUD (legacy)](https://github.com/KeremSoke/mate-hud) | Earlier standalone application-menu search | 🚮⁴ | ❌ | ❌ |
+After all these I'll be doing:
 
-1. Requires a compositor supporting the data-control protocol.
-2. Core GTK interface is portable; positioning and pointer-related features need Wayland validation.
-3. Requires `wlr-gamma-control`. Rojo includes a Wayland backend; validation and dev ongoing.
-4. Superseded by the HUD integrated into MATE Appmenu.
+- [ ] **Menta Desktop Metapackage**
+- [ ] **Menta plymouth**
+- [ ] Package creation and backporting
 
 ## Why I'm doing all these?
 
