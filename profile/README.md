@@ -33,8 +33,8 @@ Please go see my **[MATE Wayland Transition Roadmap](https://github.com/KeremSok
 
 After all these I'll be doing:
 
-- [ ] **Menta Desktop Metapackage**
-- [ ] **Menta plymouth**
+- [ ] **menta-desktop Metapackage**
+- [X] **[Menta plymouth](https://github.com/KeremSoke/menta-plymouth)**
 - [ ] Package creation and backporting
 
 ## Why I'm doing all these?
