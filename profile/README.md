@@ -1,4 +1,4 @@
-Menta Linux is a planned GNU/Linux distribution being built on Debian Stable (or just a repository), with MATE at its heart. Its goal is a consistent desktop with familiar workflows, native utilities, and system tools designed to work together.
+Here are my MATE Debian Stable/Unstable packaking repositories). 
 
 Please go see my **[MATE Wayland Transition Roadmap](https://github.com/KeremSoke/polo/discussions/6)**. After that I'll be finishing:
 
@@ -36,17 +36,3 @@ After all these I'll be doing:
 - [ ] **menta-desktop Metapackage**
 - [X] **[Menta plymouth](https://github.com/KeremSoke/menta-plymouth)**
 - [ ] Package creation and backporting
-
-## Why I'm doing all these?
-
-I like Ubuntu MATE and MATE’s desktop workflow, however what I kept wanting was more attention to the experience as a whole: applications that follow the same desktop conventions, settings that belong in the control center, and everyday utilities that completes the desktop.
-
-Keeping a traditional desktop also means continuing to develop and maintain it. There is plenty of room for better hardware settings, useful applications, media integration, and improvements to daily workflows while keeping the interface familiar.
-
-Release upgrades have been another frustration. So far, every Ubuntu or Ubuntu MATE release upgrade I have attempted has eventually left me needing to reinstall. (This is a Ubuntu issue in general.) That experience made maintaining an installation over time an important part of what I want from a distribution.
-
-Also I am not sure how wayland transition is going. I thought wayfire itself is pretty much a basic DE and mate-wayland-sessions feels more like a collection of panels and apps running on top of another DE. Therefore, I'll be using prioritizing and keep supporting X server support for this distribution or app collection, even though i tried to give wayland support for the most of the apps.
-
-All these are why I started something like this that i'm sure no one will ever discover and use: to build and maintain the MATE desktop I daily use, and on my favorite OS: Debian Stable.
-
-If I cannot create a distro, I'll be creating at least a repo for Debian Stable!
