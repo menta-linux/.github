@@ -1,4 +1,4 @@
-Here are my MATE Debian Stable/Unstable packaking repositories). 
+Here are my MATE Debian Stable/Unstable packaging repositories. 
 
 Please go see my **[MATE Wayland Transition Roadmap](https://github.com/KeremSoke/polo/discussions/6)**. After that I'll be finishing:
 
@@ -16,14 +16,13 @@ Please go see my **[MATE Wayland Transition Roadmap](https://github.com/KeremSok
 - [ ] **Menta Welcome** : A welcome screen to introduce everything implemented
 - [ ] **[Menta Software Manager](https://github.com/KeremSoke/menta-install)** : Browse and install Debian packages, Flatpaks and local packages
     - A complete rewrite in Vala needed
-- [ ] **[Menta Software Sources](https://github.com/KeremSoke/menta-sources)** : Manage Debian repositories, mirrors and signing keys
-    - A complete rewrite in Vala needed
+- [X] **[Menta Software Sources](https://github.com/KeremSoke/menta-sources)** : Manage Debian repositories, mirrors and signing keys
 - [ ] **[Menta Update Manager](https://github.com/KeremSoke/menta-update)** : Graphical software update management
     - A complete rewrite in Vala needed
 - [ ] **Menta Language Selector** : A language selector for debian
 - [x] **[MATE Appmenu & HUD](https://gitlab.com/KeremSoke/mate-appmenu)** : Global application menu and searchable menu actions
 - [x] **[MATE Media](https://github.com/mate-desktop/mate-media)** : Volume controls with integrated media playback controls
-- [ ] **[MATE Screensaver](https://github.com/KeremSoke/mate-screensaver)** : Screen locking; media integration done
+- [ ] **[MATE Screensaver](https://github.com/mate-desktop/mate-screensaver)**
     - Wayland under development
 - [x] **[Picom](https://github.com/KeremSoke/picom/tree/wobbly)** : Desktop compositing with wobbly windows and magic lamp effects
 - [x] **[Polo](https://github.com/KeremSoke/polo)** : A wayland compositor and display server for MATE
@@ -33,6 +32,6 @@ Please go see my **[MATE Wayland Transition Roadmap](https://github.com/KeremSok
 
 After all these I'll be doing:
 
-- [ ] **menta-desktop Metapackage**
+- [ ] **`menta-desktop` metapackage**
 - [X] **[Menta plymouth](https://github.com/KeremSoke/menta-plymouth)**
 - [ ] Package creation and backporting
