@@ -35,3 +35,6 @@ After all these I'll be doing:
 - [ ] **`menta-desktop` metapackage**
 - [X] **[Menta plymouth](https://github.com/KeremSoke/menta-plymouth)**
 - [ ] Package creation and backporting
+
+
+Because I am not very well with packaging and resolving issues related that, I'm using Opus 5.5 for packaging. 
