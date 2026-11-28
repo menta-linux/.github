@@ -1,7 +1,5 @@
 Here are my MATE Debian Stable/Unstable packaging repositories. 
 
-Please go see my **[MATE Wayland Transition Roadmap](https://github.com/KeremSoke/polo/discussions/6)**. After that I'll be finishing:
-
 - [ ] **[MATE Clocks](https://github.com/KeremSoke/mate-clocks)** : World clocks, alarms, stopwatch and timer
 - [ ] **MATE Weather** : A basic weather app
 - [x] **[MATE Clipboard](https://github.com/KeremSoke/mate-clipboard)** : Clipboard history with search, encryption and panel integration
@@ -35,6 +33,3 @@ After all these I'll be doing:
 - [ ] **`menta-desktop` metapackage**
 - [X] **[Menta plymouth](https://github.com/KeremSoke/menta-plymouth)**
 - [ ] Package creation and backporting
-
-
-Because I am not very well with packaging and resolving issues related that, I'm using Opus 5.5 for packaging. 
